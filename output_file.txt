@@ -1,0 +1,16 @@
+@Column( name = "ONETIME_FEE_ID")
+private String onetimeFeeId;
+@Column( name = "PARTNER_ID")
+private String partnerId;
+@Column( name = "DUE_DATE")
+private String dueDate;
+@Column( name = "AMOUNT")
+private String amount;
+@Column( name = "ONETIME_FEE_ACCOUNT_NUMBER")
+private String onetimeFeeAccountNumber;
+@Column( name = "ONETIME_FEE_RECEIPT_DESC")
+private String onetimeFeeReceiptDesc;
+@Column( name = "DEDUCTION_SUCCESS_DATE")
+private String deductionSuccessDate;
+@Column( name = "UPDATED_DATETIME")
+private String updatedDatetime;
